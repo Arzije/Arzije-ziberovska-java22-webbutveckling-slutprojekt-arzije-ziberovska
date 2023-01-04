@@ -1,0 +1,116 @@
+* {
+  	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;    
+}
+
+body{
+	background: #2f3640;
+    color: #f5f6fa;
+    box-shadow: 0 -2px 16 px rgba(47, 54, 64, 0.39); 
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 400px;
+    margin: 60px auto;
+    padding: 2px;
+}
+
+.label{
+	color:#f5f6fa;
+}
+
+.inputs {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: white;
+}
+
+.inputs input[type="text"] {
+	height: 4rem;
+    width: 20rem;
+    border: none;
+    border: 2px solid #c2c2c2;
+    margin-right:4px ;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.inputs input[type="submit"] {
+	height: 3rem;
+    width: 6rem;
+    background: #2f3640;
+    color: #f5f6fa;
+    box-shadow: 0 -2px 16 px rgba(47, 54, 64, 0.39); 
+}
+
+.display-searches{
+	width: 400px;
+	height: 100px;
+    margin: 20px auto;
+    padding: 2px;
+    border: 2px solid black;
+    background: #e84118;
+    color: #f5f6fa;
+    box-shadow: 0 -2px 16 px rgba(47, 54, 64, 0.39);
+    text-align: center; 
+}
+
+.display-weather {
+	width: 400px;
+	height: 100px;
+    margin: 20px auto;
+    padding: 2px;
+    border: 2px solid black;
+    background: #e84118;
+    color: #f5f6fa;
+    box-shadow: 0 -2px 16 px rgba(47, 54, 64, 0.39);
+    text-align: center; 
+}
+
+.cookie-container{
+	position: fixed;
+	bottom: -100%;
+	left: 0;
+	right: 0;
+	background: #2f3640;
+	color: #f5f6fa;
+	padding: 0 32px;
+	box-shadow: 0 -2px 16px rgba(47,54,64,0.39);
+	
+	transition: 400ms;
+}
+
+.cookie-container.active{
+	bottom: 0;
+}
+
+.button-accept{
+	background: #e87118;
+	border: 0;
+	color: #f5f6fa;
+	padding: 12px 48px;
+	font-size: 18px;
+	margin-bottom: 16px;
+	border-radius: 8px;
+	cursor: pointer;	
+}
+
+.button-reject{
+	background: #e84118;
+	border: 0;
+	color: #f5f6fa;
+	padding: 12px 48px;
+	font-size: 18px;
+	margin-bottom: 15px;
+	border-radius: 8px;
+	cursor: pointer;	
+} 
